@@ -37,7 +37,7 @@ manipulation - `numpy` for numerical operations - `matplotlib` &
 
 2.  Open the notebook in Google Colab or Jupyter:
 
-    -   Upload `Project1_EDA.ipynb` to [Google
+    -   Upload `EDA.ipynb` to [Google
         Colab](https://colab.research.google.com/)
     -   Or run locally with Jupyter Notebook
 
@@ -46,6 +46,12 @@ manipulation - `numpy` for numerical operations - `matplotlib` &
     ``` bash
     pip install -r requirements.txt
     ```
+4.  Download Spotify Dataset
+    - Create Kaggle Account
+    - Under Retrieving Dataset title in the EDA.ipynb file, change the value of "user" to your username
+    - EX: user = "mwsama"
+    - Then retrieve your token key and put it in key (Here is a resource to show how to get the key! https://christianjmills.com/posts/kaggle-obtain-api-key-tutorial/)
+    - EX: key = "123987192873"
 
 ## 📈 Sample Insights
 
